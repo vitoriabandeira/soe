@@ -9,6 +9,7 @@ eye[1] = 2;
 eye[2] = 3;
 eye[3] = 4;
 eye[4] = 5; 
+eye[5] = 6;
 
 
 float euclideanDist1(cv::Point2f& eye[1], cv::Point2f& eye[5])
