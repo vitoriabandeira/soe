@@ -3,11 +3,12 @@
 #include <opencv2/highgui.hpp>
 
 float ear;
-eye[0] = 1.0;
-eye[1] = 2.0;
-eye[2] = 3.0;
-eye[3] = 4.0;
-eye[4] = 5.0; 
+int eye[6];
+eye[0] = 1;
+eye[1] = 2;
+eye[2] = 3;
+eye[3] = 4;
+eye[4] = 5; 
 
 
 float euclideanDist1(cv::Point2f& eye[1], cv::Point2f& eye[5])
